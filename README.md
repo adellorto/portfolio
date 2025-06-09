@@ -1,4 +1,4 @@
-# Alessandro Dell’Orto — Personal Coding Portfolio
+# Coding Portfolio
 
 👋 Welcome! I'm Alessandro, a Master’s student in Engineering and Policy Analysis at TU Delft, combining data science, simulation modeling, and systems thinking to inform policy design. This portfolio showcases a selection of my coding and modeling projects, including academic work and personal web projects.
 
