@@ -1,6 +1,7 @@
 # Coding Portfolio
 
 👋 Welcome! I'm Alessandro, a Master’s student in Engineering and Policy Analysis at TU Delft, a course combining data science, simulation modeling, and systems thinking to inform policy design, and BSc graduate in Electronics Engineering at PoliMi. This portfolio showcases a selection of my coding and modeling projects for my academic work.
+
 ---
 
 ## 🎓 Education
