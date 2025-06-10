@@ -58,7 +58,8 @@ An exploratory data science project examining the relationship between **GNI per
 A set of three MATLAB-based projects from the *Numerical Methods* course of the BSc in Electronics Engineering at **Politecnico di Milano**. The projects apply numerical techniques to analyze and simulate electrical circuits.
 
 - 📁 MATLAB, Circuit Modeling, Numerical Methods  
-- 🔧 Topics: RC transients, finite differences, interpolation, ODE solvers, fixed-point iteration  
+- 🔧 Topics: RC transients, finite differences, interpolation, ODE solvers, fixed-point iteration
+- 👥 Individual
 - 🔗 [Source Code](https://github.com/adellorto/Numerical_Methods)
 
 <br>
@@ -68,7 +69,8 @@ A collection of solved past exam exercises from the **Microcontrollers** course 
 
 - 📁 C, MikroC, Embedded Systems  
 - ⚙️ Topics: LCD control, timers, ADC, PWM motor control, interrupts   
-- 📚 Contains official exam exercises and hardware datasheets  
+- 📚 Contains official exam exercises and hardware datasheets
+- 👥 Individual  
 - 🔗 [Source Code](https://github.com/adellorto/Microcontrollers)
 
 <br>
