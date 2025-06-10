@@ -1,7 +1,6 @@
 # Coding Portfolio
 
-👋 Welcome! I'm Alessandro, a Master’s student in Engineering and Policy Analysis at TU Delft, a course combining data science, simulation modeling, and systems thinking to inform policy design, and BSc graduate in Electronics Engineering at PoliMi. This portfolio showcases a selection of my coding and modeling projects, including academic work and personal web projects.
-
+👋 Welcome! I'm Alessandro, a Master’s student in Engineering and Policy Analysis at TU Delft, a course combining data science, simulation modeling, and systems thinking to inform policy design, and BSc graduate in Electronics Engineering at PoliMi. This portfolio showcases a selection of my coding and modeling projects for my academic work.
 ---
 
 ## 🎓 Education
@@ -38,12 +37,12 @@ A series of three spatial data analysis notebooks developed for the MSc course *
 - 📁 Python, GeoPandas, Scikit-learn
 - 📍 Covers data cleaning, , PCA, spatial regression & clustering, spatial autocorrelation I  
 - 🧪 Small case studies on urban employment and female labour force 
-- 👥 Collaborated with four peers
+- 👥 Individual
 - 🔗 [Source Code](https://github.com/adellorto/SDS_Project_Individual)
 
 <br>
 
-### 🌍 EDA on socio-economic data  
+### 🌍 Data-driven insights for SDGs
 An exploratory data science project examining the relationship between **GNI per capita** and **renewable energy consumption** across countries (1990–2022). Developed for the MSc course *Programming for Data Science* at **TU Delft**.
 
 - 📁 Python, Jupyter, pandas, matplotlib, seaborn, scikit-learn  
