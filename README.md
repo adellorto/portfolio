@@ -16,6 +16,16 @@ Key topics: Calculus, Linear Algebra, Physics, Fundamentals of Computer Architec
 
 ## Projects
 
+### 🛣️ Road Network Agent-Based Model  
+Python-based analysis of **Bangladesh’s road network** using Road Maintenance Management System (RMMS) data. Developed over three assignments for the MSc course *Advanced Simulation* at **TU Delft**, the project computes **vulnerability** and **criticality** metrics for roads and bridges.
+
+📁 Python, Data Analysis, Network Metrics  
+📊 Workflow: Model optimization → Metric computation → Reporting 
+📦 Includes scripts, plots, CSV outputs, and a final report  
+👥 Collaborated with four peers  
+🔗 [Source Code](https://github.com/adellorto/Advanced_Simulation_Assignments)
+
+
 ### 🔌 Microcontrollers  
 A collection of solutions to past exam exercises from the **Microcontrollers** course of the BSc in Electronics Engineering at Politecnico di Milano. Projects are based on the **PIC18F45K22** microcontroller and developed using **MikroC**.
 
