@@ -12,6 +12,17 @@ Key topics: System Dynamics, Agent-Based Modeling, ML, Spatial Data Science, Str
 **Politecnico di Milano** — BSc in Electronics Engineering (2021–2024)
 Key topics: Calculus, Linear Algebra, Physics, Fundamentals of Computer Architectures, Signal Processing, Control, Analog Circuit Design, Digital Integrated Systems, Microcontrollers, Signal acquisition.
 
+---
+
+## Projects
+
+### 🖼️ Gian Lorenzo Bernini Website  
+A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a key figure of the Italian Baroque. It features his biography, major sculptures, and architectural works. The site is fully static and viewable locally.
+
+📁 HTML, CSS, Static Assets  
+👥 Collaborated with two peers  
+🔗 [Source Code](https://github.com/adellorto/Gian_Lorenzo_Bernini)
+
 ## 📬 Contact
 
 📧 [a.dellorto02@gmail.com](mailto:a.dellorto02@gmail.com)  
