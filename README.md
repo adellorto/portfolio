@@ -59,7 +59,7 @@ A set of three MATLAB-based projects from the *Numerical Methods* course of the 
 
 - 📁 MATLAB, Circuit Modeling, Numerical Methods  
 - 🔧 Topics: RC transients, finite differences, interpolation, ODE solvers, fixed-point iteration  
-- 🔗 [Source Code](https://github.com/adellorto/Numerical_Methods_Projects)
+- 🔗 [Source Code](https://github.com/adellorto/Numerical_Methods)
 
 <br>
 
