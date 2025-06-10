@@ -28,7 +28,7 @@ Python-based analysis of **Bangladesh’s road network** using Road Maintenance 
 - 📊 Workflow: Model optimization → Metric computation → Reporting 
 - 📦 Includes scripts, plots, CSV outputs, and a final report  
 - 👥 Collaborated with four peers  
-- 🔗 [Source Code](https://github.com/adellorto/Advanced_Simulation_Assignments)
+- 🔗 [Source Code](https://github.com/adellorto/Advanced_Simulation_Project)
 
 <br>
 
@@ -39,7 +39,7 @@ A series of three spatial data analysis notebooks developed for the MSc course *
 - 📍 Covers data cleaning, , PCA, spatial regression & clustering, spatial autocorrelation I  
 - 🧪 Small case studies on urban employment and female labour force 
 - 👥 Collaborated with four peers
-- 🔗 [Source Code](https://github.com/adellorto/Spatial_Data_Science_Assignments)
+- 🔗 [Source Code](https://github.com/adellorto/SDS_Project_Individual)
 
 <br>
 
@@ -50,7 +50,7 @@ An exploratory data science project examining the relationship between **GNI per
 - 📊 Methods: Data cleaning, interpolation, visualization, ML  
 - 📦 Includes datasets from the **UNDP** and **World Bank**  
 - 👥 Collaborated with two peers  
-- 🔗 [Source Code](https://github.com/adellorto/GNI_and_Renewable_Energy_Analysis)
+- 🔗 [Source Code](https://github.com/adellorto/PFDS_project)
 
 <br>
 
