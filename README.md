@@ -22,7 +22,7 @@ Key topics: Calculus, Linear Algebra, Physics, Fundamentals of Computer Architec
 <br>
 
 ### 🛣️ Road Network Agent-Based Model  
-Python-based analysis of **Bangladesh’s road network** using Road Maintenance Management System (RMMS) data. Developed over three assignments for the MSc course *Advanced Simulation* at **TU Delft**, the project computes **vulnerability** and **criticality** metrics for roads and bridges.
+Python-based analysis of Bangladesh’s road network using Road Maintenance Management System (RMMS) data. Developed over three assignments for the MSc course *Advanced Simulation* at TU Delft, the project computes vulnerability and criticality metrics for roads and bridges.
 
 - 📁 Python, Data Analysis, Network Metrics  
 - 📊 Workflow: Model optimization → Metric computation → Reporting 
@@ -33,7 +33,7 @@ Python-based analysis of **Bangladesh’s road network** using Road Maintenance 
 <br>
 
 ### 🗺️ Spatial Data Analysis 
-A series of three spatial data analysis notebooks developed for the MSc course *Spatial Data Science* at **TU Delft**. Topics include data wrangling, mapping, and exploratory modelling using **socio-economic** and **geospatial** datasets from the Netherlands and India.
+A series of three spatial data analysis notebooks developed for the MSc course *Spatial Data Science* at TU Delft. Topics include data wrangling, mapping, and exploratory modelling using socio-economic and geospatial datasets from the Netherlands and India.
 
 - 📁 Python, GeoPandas, Scikit-learn
 - 📍 Covers data cleaning, , PCA, spatial regression & clustering, spatial autocorrelation 
@@ -44,18 +44,18 @@ A series of three spatial data analysis notebooks developed for the MSc course *
 <br>
 
 ### 🌍 Data-driven insights for SDGs
-An exploratory data science project examining the relationship between **GNI per capita** and **renewable energy consumption** across countries (1990–2022). Developed for the MSc course *Programming for Data Science* at **TU Delft**.
+An exploratory data science project examining the relationship between GNI per capita and renewable energy consumption across countries (1990–2022). Developed for the MSc course *Programming for Data Science* at TU Delft.
 
 - 📁 Python, Jupyter, pandas, matplotlib, seaborn, scikit-learn  
 - 📊 Methods: Data cleaning, interpolation, visualization, ML  
-- 📦 Includes datasets from the **UNDP** and **World Bank**  
+- 📦 Includes datasets from the UNDP and World Bank  
 - 👥 Collaborated with two peers  
 - 🔗 [Source Code](https://github.com/adellorto/PFDS_project)
 
 <br>
 
 ### 📐 Numerical Methods for Circuit Analysis 
-A set of three MATLAB-based projects from the *Numerical Methods* course of the BSc in Electronics Engineering at **Politecnico di Milano**. The projects apply numerical techniques to analyze and simulate electrical circuits.
+A set of three MATLAB-based projects from the *Numerical Methods* course of the BSc in Electronics Engineering at Politecnico di Milano. The projects apply numerical techniques to analyze and simulate electrical circuits.
 
 - 📁 MATLAB, Circuit Modeling, Numerical Methods  
 - 🔧 Topics: RC transients, finite differences, interpolation, ODE solvers, fixed-point iteration
@@ -65,7 +65,7 @@ A set of three MATLAB-based projects from the *Numerical Methods* course of the 
 <br>
 
 ### 🔌 Microcontrollers  
-A collection of solved past exam exercises from the **Microcontrollers** course of the BSc in Electronics Engineering at Politecnico di Milano. Projects are based on the **PIC18F45K22** microcontroller and developed using **MikroC**.
+A collection of solved past exam exercises from the *Microcontrollers* course of the BSc in Electronics Engineering at Politecnico di Milano. Projects are based on the *PIC18F45K22* microcontroller and developed using *MikroC*.
 
 - 📁 C, MikroC, Embedded Systems  
 - ⚙️ Topics: LCD control, timers, ADC, PWM motor control, interrupts   
@@ -76,7 +76,7 @@ A collection of solved past exam exercises from the **Microcontrollers** course 
 <br>
 
 ### 🖼️ HTML Website  
-A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a key figure of the Italian Baroque. It features his biography, major sculptures, and architectural works. The site is fully static and viewable locally. Created in 2020 as a high-school project.
+A simple static website (in Italian) dedicated to *Gian Lorenzo Bernini*, a key figure of the Italian Baroque. It features his biography, major sculptures, and architectural works. The site is fully static and viewable locally. Created in 2020 as a high-school project.
 
 - 📁 HTML, CSS, Javascript  
 - 👥 Collaborated with two peers  
