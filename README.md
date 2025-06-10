@@ -40,11 +40,11 @@ A series of three spatial data analysis notebooks developed for the MSc course *
 
 <br>
 
-### 🌍 GNI and Renewable Energy Analysis  
+### 🌍 EDA on socio-economic data  
 An exploratory data science project examining the relationship between **GNI per capita** and **renewable energy consumption** across countries (1990–2022). Developed for the MSc course *Programming for Data Science* at **TU Delft**.
 
-📁 Python, Jupyter, pandas, matplotlib, seaborn  
-📊 Methods: Data cleaning, interpolation, visualization, linear regression  
+📁 Python, Jupyter, pandas, matplotlib, seaborn, scikit-learn  
+📊 Methods: Data cleaning, interpolation, visualization, ML  
 📦 Includes datasets from the **UNDP** and **World Bank**  
 👥 Collaborated with two peers  
 🔗 [Source Code](https://github.com/adellorto/GNI_and_Renewable_Energy_Analysis)
