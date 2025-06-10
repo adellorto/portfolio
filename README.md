@@ -16,6 +16,17 @@ Key topics: Calculus, Linear Algebra, Physics, Fundamentals of Computer Architec
 
 ## Projects
 
+### 🔌 Microcontrollers  
+A collection of solutions to past exam exercises from the **Microcontrollers** course of the BSc in Electronics Engineering at Politecnico di Milano. Projects are based on the **PIC18F45K22** microcontroller and developed using **MikroC**.
+
+📁 C, MikroC, Embedded Systems  
+⚙️ Topics: LCD control, timers, ADC, PWM motor control, interrupts  
+📅 Includes projects from **1 Luglio 2020**, **27 Luglio 2020**, and **9 Luglio 2018**, with source code and documentation  
+📚 Contains official exam exercises and hardware datasheets  
+
+🔗 [Source Code](https://github.com/adellorto/Microcontrollers)
+
+
 ### 🖼️ Gian Lorenzo Bernini Website  
 A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a key figure of the Italian Baroque. It features his biography, major sculptures, and architectural works. The site is fully static and viewable locally.
 
