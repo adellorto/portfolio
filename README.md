@@ -32,11 +32,11 @@ Python-based analysis of **Bangladesh’s road network** using Road Maintenance 
 
 <br>
 
-### 🗺️ Spatial Data Science 
+### 🗺️ Spatial Data Analysis 
 A series of three spatial data analysis notebooks developed for the MSc course *Spatial Data Science* at **TU Delft**. Topics include data wrangling, mapping, and exploratory modelling using **socio-economic** and **geospatial** datasets from the Netherlands and India.
 
 - 📁 Python, GeoPandas, Scikit-learn
-- 📍 Covers data cleaning, , PCA, spatial regression & clustering, spatial autocorrelation I  
+- 📍 Covers data cleaning, , PCA, spatial regression & clustering, spatial autocorrelation 
 - 🧪 Small case studies on urban employment and female labour force 
 - 👥 Individual
 - 🔗 [Source Code](https://github.com/adellorto/SDS_Project_Individual)
