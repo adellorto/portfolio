@@ -16,6 +16,8 @@ Key topics: Calculus, Linear Algebra, Physics, Fundamentals of Computer Architec
 
 ## Projects
 
+<br>
+
 ### 🛣️ Road Network Agent-Based Model  
 Python-based analysis of **Bangladesh’s road network** using Road Maintenance Management System (RMMS) data. Developed over three assignments for the MSc course *Advanced Simulation* at **TU Delft**, the project computes **vulnerability** and **criticality** metrics for roads and bridges.
 
@@ -25,6 +27,7 @@ Python-based analysis of **Bangladesh’s road network** using Road Maintenance 
 👥 Collaborated with four peers  
 🔗 [Source Code](https://github.com/adellorto/Advanced_Simulation_Assignments)
 
+<br>
 
 ### 🔌 Microcontrollers  
 A collection of solutions to past exam exercises from the **Microcontrollers** course of the BSc in Electronics Engineering at Politecnico di Milano. Projects are based on the **PIC18F45K22** microcontroller and developed using **MikroC**.
@@ -35,6 +38,7 @@ A collection of solutions to past exam exercises from the **Microcontrollers** c
 
 🔗 [Source Code](https://github.com/adellorto/Microcontrollers)
 
+<br>
 
 ### 🖼️ Gian Lorenzo Bernini Website  
 A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a key figure of the Italian Baroque. It features his biography, major sculptures, and architectural works. The site is fully static and viewable locally.
@@ -42,6 +46,8 @@ A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a ke
 📁 HTML, CSS, Javascript  
 👥 Collaborated with two peers  
 🔗 [Source Code](https://github.com/adellorto/Gian_Lorenzo_Bernini)
+
+<br>
 
 ## 📬 Contact
 
