@@ -15,8 +15,11 @@ Key topics: Calculus, Linear Algebra, Physics, Fundamentals of Computer Architec
 
 ---
 
+<br><br>
 
 # Projects
+
+<br>
 
 ### 🛣️ Road Network Agent-Based Model  
 Python-based analysis of **Bangladesh’s road network** using Road Maintenance Management System (RMMS) data. Developed over three assignments for the MSc course *Advanced Simulation* at **TU Delft**, the project computes **vulnerability** and **criticality** metrics for roads and bridges.
@@ -27,6 +30,7 @@ Python-based analysis of **Bangladesh’s road network** using Road Maintenance 
 - 👥 Collaborated with four peers  
 - 🔗 [Source Code](https://github.com/adellorto/Advanced_Simulation_Assignments)
 
+<br>
 
 ### 🗺️ Spatial Data Science 
 A series of three spatial data analysis notebooks developed for the MSc course *Spatial Data Science* at **TU Delft**. Topics include data wrangling, mapping, and exploratory modelling using **socio-economic** and **geospatial** datasets from the Netherlands and India.
@@ -37,6 +41,7 @@ A series of three spatial data analysis notebooks developed for the MSc course *
 - 👥 Collaborated with four peers
 - 🔗 [Source Code](https://github.com/adellorto/Spatial_Data_Science_Assignments)
 
+<br>
 
 ### 🌍 EDA on socio-economic data  
 An exploratory data science project examining the relationship between **GNI per capita** and **renewable energy consumption** across countries (1990–2022). Developed for the MSc course *Programming for Data Science* at **TU Delft**.
@@ -47,6 +52,7 @@ An exploratory data science project examining the relationship between **GNI per
 - 👥 Collaborated with two peers  
 - 🔗 [Source Code](https://github.com/adellorto/GNI_and_Renewable_Energy_Analysis)
 
+<br>
 
 ### 🔌 Microcontrollers  
 A collection of solutions to past exam exercises from the **Microcontrollers** course of the BSc in Electronics Engineering at Politecnico di Milano. Projects are based on the **PIC18F45K22** microcontroller and developed using **MikroC**.
@@ -56,6 +62,7 @@ A collection of solutions to past exam exercises from the **Microcontrollers** c
 - 📚 Contains official exam exercises and hardware datasheets  
 - 🔗 [Source Code](https://github.com/adellorto/Microcontrollers)
 
+<br>
 
 ### 🖼️ HTML Website  
 A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a key figure of the Italian Baroque. It features his biography, major sculptures, and architectural works. The site is fully static and viewable locally. Created in 2020 as a high-school project.
@@ -64,7 +71,11 @@ A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a ke
 - 👥 Collaborated with two peers  
 - 🔗 [Source Code](https://github.com/adellorto/Gian_Lorenzo_Bernini)
 
+<br>
+
 ---
+
+<br>
 
 ## 📬 Contact
 
