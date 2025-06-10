@@ -21,49 +21,48 @@ Key topics: Calculus, Linear Algebra, Physics, Fundamentals of Computer Architec
 ### 🛣️ Road Network Agent-Based Model  
 Python-based analysis of **Bangladesh’s road network** using Road Maintenance Management System (RMMS) data. Developed over three assignments for the MSc course *Advanced Simulation* at **TU Delft**, the project computes **vulnerability** and **criticality** metrics for roads and bridges.
 
-📁 Python, Data Analysis, Network Metrics  
-📊 Workflow: Model optimization → Metric computation → Reporting 
-📦 Includes scripts, plots, CSV outputs, and a final report  
-👥 Collaborated with four peers  
-🔗 [Source Code](https://github.com/adellorto/Advanced_Simulation_Assignments)
+- 📁 Python, Data Analysis, Network Metrics  
+- 📊 Workflow: Model optimization → Metric computation → Reporting 
+- 📦 Includes scripts, plots, CSV outputs, and a final report  
+- 👥 Collaborated with four peers  
+- 🔗 [Source Code](https://github.com/adellorto/Advanced_Simulation_Assignments)
 
 
 ### 🗺️ Spatial Data Science 
 A series of three spatial data analysis notebooks developed for the MSc course *Spatial Data Science* at **TU Delft**. Topics include data wrangling, mapping, and exploratory modelling using **socio-economic** and **geospatial** datasets from the Netherlands and India.
 
-📁 Python, GeoPandas, Scikit-learn
-📍 Covers data cleaning, , PCA, spatial regression & clustering, spatial autocorrelation I  
-🧪 Small case studies on urban employment and female labour force 
-👥 Collaborated with four peers
-🔗 [Source Code](https://github.com/adellorto/Spatial_Data_Science_Assignments)
+- 📁 Python, GeoPandas, Scikit-learn
+- 📍 Covers data cleaning, , PCA, spatial regression & clustering, spatial autocorrelation I  
+- 🧪 Small case studies on urban employment and female labour force 
+- 👥 Collaborated with four peers
+- 🔗 [Source Code](https://github.com/adellorto/Spatial_Data_Science_Assignments)
 
 
 ### 🌍 EDA on socio-economic data  
 An exploratory data science project examining the relationship between **GNI per capita** and **renewable energy consumption** across countries (1990–2022). Developed for the MSc course *Programming for Data Science* at **TU Delft**.
 
-📁 Python, Jupyter, pandas, matplotlib, seaborn, scikit-learn  
-📊 Methods: Data cleaning, interpolation, visualization, ML  
-📦 Includes datasets from the **UNDP** and **World Bank**  
-👥 Collaborated with two peers  
-🔗 [Source Code](https://github.com/adellorto/GNI_and_Renewable_Energy_Analysis)
+- 📁 Python, Jupyter, pandas, matplotlib, seaborn, scikit-learn  
+- 📊 Methods: Data cleaning, interpolation, visualization, ML  
+- 📦 Includes datasets from the **UNDP** and **World Bank**  
+- 👥 Collaborated with two peers  
+- 🔗 [Source Code](https://github.com/adellorto/GNI_and_Renewable_Energy_Analysis)
 
 
 ### 🔌 Microcontrollers  
 A collection of solutions to past exam exercises from the **Microcontrollers** course of the BSc in Electronics Engineering at Politecnico di Milano. Projects are based on the **PIC18F45K22** microcontroller and developed using **MikroC**.
 
-📁 C, MikroC, Embedded Systems  
-⚙️ Topics: LCD control, timers, ADC, PWM motor control, interrupts   
-📚 Contains official exam exercises and hardware datasheets  
-
-🔗 [Source Code](https://github.com/adellorto/Microcontrollers)
+- 📁 C, MikroC, Embedded Systems  
+- ⚙️ Topics: LCD control, timers, ADC, PWM motor control, interrupts   
+- 📚 Contains official exam exercises and hardware datasheets  
+- 🔗 [Source Code](https://github.com/adellorto/Microcontrollers)
 
 
 ### 🖼️ HTML Website  
 A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a key figure of the Italian Baroque. It features his biography, major sculptures, and architectural works. The site is fully static and viewable locally. Created in 2020 as a high-school project.
 
-📁 HTML, CSS, Javascript  
-👥 Collaborated with two peers  
-🔗 [Source Code](https://github.com/adellorto/Gian_Lorenzo_Bernini)
+- 📁 HTML, CSS, Javascript  
+- 👥 Collaborated with two peers  
+- 🔗 [Source Code](https://github.com/adellorto/Gian_Lorenzo_Bernini)
 
 ---
 
