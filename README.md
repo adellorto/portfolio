@@ -12,9 +12,11 @@ Key topics: System Dynamics, Agent-Based Modeling, ML, Spatial Data Science, Str
 **Politecnico di Milano** — BSc in Electronics Engineering (2021–2024)
 Key topics: Calculus, Linear Algebra, Physics, Fundamentals of Computer Architectures, Signal Processing, Control, Analog Circuit Design, Digital Integrated Systems, Microcontrollers, Signal acquisition.
 
+<br><br>
+
 ---
 
-## Projects
+# Projects
 
 <br>
 
