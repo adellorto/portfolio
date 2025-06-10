@@ -16,6 +16,8 @@ Key topics: Calculus, Linear Algebra, Physics, Fundamentals of Computer Architec
 
 ---
 
+<br><br>
+
 # Projects
 
 <br>
