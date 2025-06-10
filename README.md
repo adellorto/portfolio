@@ -40,6 +40,17 @@ A series of three spatial data analysis notebooks developed for the MSc course *
 
 <br>
 
+### 🌍 GNI and Renewable Energy Analysis  
+An exploratory data science project examining the relationship between **GNI per capita** and **renewable energy consumption** across countries (1990–2022). Developed for the MSc course *Programming for Data Science* at **TU Delft**.
+
+📁 Python, Jupyter, pandas, matplotlib, seaborn  
+📊 Methods: Data cleaning, interpolation, visualization, linear regression  
+📦 Includes datasets from the **UNDP** and **World Bank**  
+👥 Collaborated with two peers  
+🔗 [Source Code](https://github.com/adellorto/GNI_and_Renewable_Energy_Analysis)
+
+<br>
+
 ### 🔌 Microcontrollers  
 A collection of solutions to past exam exercises from the **Microcontrollers** course of the BSc in Electronics Engineering at Politecnico di Milano. Projects are based on the **PIC18F45K22** microcontroller and developed using **MikroC**.
 
@@ -51,8 +62,8 @@ A collection of solutions to past exam exercises from the **Microcontrollers** c
 
 <br>
 
-### 🖼️ Gian Lorenzo Bernini Website  
-A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a key figure of the Italian Baroque. It features his biography, major sculptures, and architectural works. The site is fully static and viewable locally.
+### 🖼️ HTML Website  
+A simple static website (in Italian) dedicated to **Gian Lorenzo Bernini**, a key figure of the Italian Baroque. It features his biography, major sculptures, and architectural works. The site is fully static and viewable locally. Created in 2020 as a high-school project.
 
 📁 HTML, CSS, Javascript  
 👥 Collaborated with two peers  
