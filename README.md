@@ -29,6 +29,17 @@ Python-based analysis of **Bangladesh’s road network** using Road Maintenance 
 
 <br>
 
+### 🗺️ Spatial Data Science 
+A series of three spatial data analysis notebooks developed for the MSc course *Spatial Data Science* at **TU Delft**. Topics include data wrangling, mapping, and exploratory modelling using **socio-economic** and **geospatial** datasets from the Netherlands and India.
+
+📁 Python, GeoPandas, Scikit-learn
+📍 Covers data cleaning, , PCA, spatial regression & clustering, spatial autocorrelation I  
+🧪 Small case studies on urban employment and female labour force 
+👥 Collaborated with four peers
+🔗 [Source Code](https://github.com/adellorto/Spatial_Data_Science_Assignments)
+
+<br>
+
 ### 🔌 Microcontrollers  
 A collection of solutions to past exam exercises from the **Microcontrollers** course of the BSc in Electronics Engineering at Politecnico di Milano. Projects are based on the **PIC18F45K22** microcontroller and developed using **MikroC**.
 
