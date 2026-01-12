@@ -137,10 +137,164 @@
 								</div>
 							</section>
 
+
+Here is the updated HTML code. I have replaced the "Coming soon..." placeholder in the Publications section with a styled card for your HCSS methodological note. I styled it to match the rest of your theme (using the orange accent color #e57e45) but kept it distinct from the project cards since it is a publication.
+code
+Html
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Alessandro Dell'Orto</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/jpeg" href="images/Ad.png" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			html {
+				scroll-behavior: smooth;
+			}
+			a {
+				color: #e57e45;
+			}
+			a:hover {
+				color: #e57e45;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" style="background-image: url('images/Background.png'); background-size: cover; background-position: center; background-repeat: no-repeat; padding-bottom: 7em; padding-top: 2em;">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="title", style="color:white">Adellorto</span>
+								</a>
+
+							<h1 style="margin-top: 1.5em; margin-bottom: 0.1em; color: white;">Hi, I am <b>Alessandro</b> Dell'Orto</h1>
+							<p style="color: white; font-size: 1.2em; margin-top: 0; font-weight: 300; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">Data and policy analyst, sometimes musician</p>
+
+							<!-- Scroll Down Button -->
+							<div style="text-align: center; margin-top: 8em;">
+								<a href="#about" style="display: inline-block; padding: 0.6em; background-color: transparent; border: 2px solid white; border-radius: 50%; width: 40px; height: 40px; text-decoration: none; transition: all 0.3s ease;">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 100%; height: 100%;">
+										<line x1="12" y1="5" x2="12" y2="19"></line>
+										<polyline points="19 12 12 19 5 12"></polyline>
+									</svg>
+								</a>
+							</div>
+
+						</div>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- About Me Section -->
+							<section id="about" style="margin-top: 4em;">
+								<div style="display: flex; align-items: center; gap: 2em; flex-wrap: wrap;">
+									<div style="flex: 0 0 300px;">
+										<img src="images/headshot_circle.png" alt="Alessandro Dell'Orto" style="width: 100%; border-radius: 50%;" />
+									</div>
+									<div style="flex: 1; min-width: 300px;">
+										<h2>About Me</h2>
+										<p>I'm Alessandro, an electronics engineering graduate turned towards computer science, policy, and security.</p>
+										<p>I'm currently pursuing a master's degree in <a href="https://www.tudelft.nl/en/education/programmes/masters/epa/msc-engineering-and-policy-analysis" target="_blank">Engineering and Policy Analysis</a> at TU Delft, where I am studying the fundamentals of Machine Learning, Advanced Modelling and Simulation, but also policy design and strategy. As an intern, I'm also working on domain-specific applications of Large Language Models to International Relations and Security.</p>
+										<p>I am eager to explore how to apply innovations in computer science to the public domain in an effective, transparent, and secure way. In my free time, you will find me singing, playing music, and sharing my love for it.</p>
+									</div>
+								</div>
+							</section>
+
+							<!-- Projects Section -->
+							<section id="projects" style="margin-top: 6em;">
+								<h2 style="text-align: center; margin-bottom: 3em;">MSc Projects</h2>
+
+								<!-- Project 1 -->
+								<div style="display: flex; align-items: center; gap: 3em; flex-wrap: wrap; margin-bottom: 4em;">
+									<div style="flex: 0.85; min-width: 220px;">
+										<img src="images/Project_1.png" alt="Project 1" style="width: 100%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);" />
+									</div>
+									<div style="flex: 1.08; min-width: 300px; margin-top: 1em">
+										<h3>ABM for Bangladesh Road Network</h3>
+										<p>In this group project, I replicated a TU Delft research study for the World Bank, aimed at optimizing Bangladesh's road and bridge network. Starting with raw, unstructured data from the Ministry of Transport, I performed extensive data cleaning and exploration to construct a functional network model of the country's major highways.</p>
+										<p>Using an Object-Oriented approach in Python, I combined Mesa for agent-based modeling, NetworkX for pathfinding and graph computations, and GeoPandas for spatial data structuring. I ran simulations across various disaster scenarios to compute vulnerability and criticality metrics, ultimately determining which infrastructure required urgent investment.</p>
+										<p><a href="https://github.com/adellorto/Advanced_Simulation_Project/tree/main" target="_blank">View on GitHub</a></p>
+									</div>
+								</div>
+
+								<!-- Project 2 -->
+								<div style="display: flex; align-items: center; gap: 3em; flex-wrap: wrap; margin-bottom: 4em; flex-direction: row-reverse;">
+									<div style="flex: 0.85; min-width: 250px;">
+										<img src="images/Project_2.png" alt="Project 2" style="width: 100%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);" />
+									</div>
+									<div style="flex: 1.08; min-width: 250px;">
+										<h3>IJssel River Flood Risk Management</h3>
+										<p>In this advanced simulation project at TU Delft, our team acted as policy analysts for the dike rings of Deventer and Gorssel to develop a robust flood risk management strategy for the IJssel River Basin. Operating under conditions of "deep uncertainty," we moved beyond traditional predictive modeling to explore thousands of plausible future scenarios involving climate change and socio-economic volatility.</p>
+										<p>Using Python and the EMA Workbench, we engaged in an iterative process of Exploratory Modeling and Analysis (EMA). We utilized Global Sensitivity Analysis (Extra-Trees) to identify key risk drivers and applied Multi-Objective Evolutionary Algorithms (ϵ-NSGA-II) to generate Pareto-optimal policy sets. To stress-test these strategies, we employed the PRIM algorithm for scenario discovery, identifying the specific conditions under which policies might fail.</p>
+										<p><a href="https://github.com/adellorto/MBDM" target="_blank">View on GitHub</a></p>
+									</div>
+								</div>
+
+								<!-- Project 3 -->
+								<div style="display: flex; align-items: center; gap: 3em; flex-wrap: wrap; margin-bottom: 4em;">
+									<div style="flex: 0.85; min-width: 300px;">
+										<img src="images/Project_3.png" alt="Project 3" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);" />
+									</div>
+									<div style="flex: 1.08; min-width: 250px;">
+										<h3>Spatial Data Science: From Wrangling to Advanced Modelling</h3>
+										<p>Developed for the TU Delft Spatial Data Science course, this project applies Python-based workflows to analyze socio-economic patterns in The Hague and India. I first established a robust data engineering pipeline using Pandas and GeoPandas to clean, reshape, and prepare raw urban statistics.</p>
+										<p>Transitioning to complex modelling with the SHRUG dataset, I investigated female labor participation by applying Global and Local Spatial Autocorrelation (Moran's I and LISA) to detect geographic clusters. Finally, I utilized Principal Component Analysis (PCA) for dimensionality reduction followed by K-Means Clustering to group districts based on development indicators.</p>
+										<p><a href="https://github.com/adellorto/SDS_Project_Individual" target="_blank">View on GitHub</a></p>
+									</div>
+								</div>
+							</section>
+
+							<!-- Personal Projects Section -->
+							<section id="personal-projects" style="margin-top: 6em;">
+								<h2 style="text-align: center; margin-bottom: 3em;">Personal Projects</h2>
+								<div style="display: flex; gap: 2em; flex-wrap: wrap; justify-content: center;">
+
+									<!-- Personal Project 1 -->
+									<div style="flex: 1; min-width: 300px; max-width: 400px; background: #f5f5f5; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+										<img src="images/Personal_1.PNG" alt="Personal Project 1" style="width: 100%; display: block;" />
+										<div style="padding: 1.2em; font-size: 0.85em;">
+											<h3 style="font-size: 1.05em;">Playlist converter</h3>
+											<p>I am a proud user of YouTube Music (it's just better!!), but my friends seem not to think the same, so I built this Discord bot.</p>
+											<p>Users simply paste a Spotify link into a Discord channel, and the bot automatically searches for matching tracks, creates a private playlist on YouTube Music, and returns a direct link along with success statistics.</p>
+											<p><a href="https://github.com/adellorto/spotify-ytmusic-converter" target="_blank">View on GitHub</a></p>
+										</div>
+									</div>
+
+								</div>
+							</section>
+
 							<!-- Publications Section -->
-							<section id="publications" style="margin-top: 6em; text-align: center;">
-								<h2>Publications</h2>
-								<p>Coming soon...</p>
+							<section id="publications" style="margin-top: 6em;">
+								<h2 style="text-align: center; margin-bottom: 3em;">Publications</h2>
+								
+								<div style="display: flex; justify-content: center;">
+									<div style="width: 100%; max-width: 900px;">
+										
+										<!-- Publication 1 -->
+										<div style="background: #ffffff; padding: 2em; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); margin-bottom: 2em; border-left: 5px solid #e57e45;">
+											<h3 style="margin-top: 0; color: #333;">GINA Diplomatic: Methodological Notes</h3>
+											<p style="color: #666; margin-bottom: 1em; font-style: italic;">The Hague Centre for Strategic Studies (HCSS) &bull; January 2026</p>
+											<p>Co-authored the methodological documentation for the GINA Diplomatic 2.0 release. This report outlines the data engineering pipeline, NLP classification models, and source verification techniques used to track diplomatic sentiment.</p>
+											<a href="https://hcss.nl/wp-content/uploads/2026/01/GINA-Diplomatic-Methodological-Notes.pdf" target="_blank" style="font-weight: bold; text-decoration: none;">Read Report &rarr;</a>
+										</div>
+
+									</div>
+								</div>
 							</section>
 
 							<!-- Get in touch Section -->
@@ -175,4 +329,5 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
 </html>
