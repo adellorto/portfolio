@@ -1,200 +1,1082 @@
-<!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Alessandro Dell'Orto</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" type="image/jpeg" href="images/Ad.png" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			html {
-				scroll-behavior: smooth;
-			}
-			a {
-				color: #e57e45;
-			}
-			a:hover {
-				color: #e57e45;
-			}
-		</style>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Alessandro Dell'Orto">
+  <title>Alessandro Dell'Orto — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --background: #e6e7e2;
+      --ink: #343632;
+      --lime: #cdfa78;
+      --line: rgba(0, 0, 0, .68);
+      --content: 1040px;
+      --copy: 744px;
+    }
 
-				<!-- Header -->
-					<header id="header" style="background-image: url('images/Background.png'); background-size: cover; background-position: center; background-repeat: no-repeat; padding-bottom: 7em; padding-top: 2em;">
-						<div class="inner">
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--background); }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: "Kameron", Georgia, serif;
+      -webkit-font-smoothing: antialiased;
+    }
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="title", style="color:white">Adellorto</span>
-								</a>
+    img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    button { color: inherit; font: inherit; }
+    a { color: inherit; text-decoration-thickness: .75px; text-underline-offset: 3px; }
+    a:hover { text-decoration-color: transparent; background: var(--lime); }
+    ::selection { background: var(--lime); }
+    :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 
-							<h1 style="margin-top: 1.5em; margin-bottom: 0.1em; color: white;">Hi, I am <b>Alessandro</b> Dell'Orto</h1>
-							<p style="color: white; font-size: 1.2em; margin-top: 0; font-weight: 300; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);">Data and policy analyst, sometimes musician</p>
+    .site-header {
+      position: sticky;
+      z-index: 10;
+      top: 0;
+      height: 62px;
+      display: flex;
+      align-items: flex-start;
+      padding: 21px 24px 0;
+      border-bottom: 1px solid var(--line);
+      background: var(--background);
+    }
 
-							<!-- Scroll Down Button -->
-							<div style="text-align: center; margin-top: 8em;">
-								<a href="#about" style="display: inline-block; padding: 0.6em; background-color: transparent; border: 2px solid white; border-radius: 50%; width: 40px; height: 40px; text-decoration: none; transition: all 0.3s ease;">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 100%; height: 100%;">
-										<line x1="12" y1="5" x2="12" y2="19"></line>
-										<polyline points="19 12 12 19 5 12"></polyline>
-									</svg>
-								</a>
-							</div>
+    .wordmark {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: .015em;
+      text-decoration: none;
+    }
 
-						</div>
-					</header>
+    main {
+      width: min(var(--content), calc(100% - 80px));
+      margin: 0 auto;
+    }
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+    .hero {
+      width: min(var(--copy), 100%);
+      min-height: 455px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 74px 0 86px;
+    }
 
-							<!-- About Me Section -->
-							<section id="about" style="margin-top: 4em;">
-								<div style="display: flex; align-items: center; gap: 2em; flex-wrap: wrap;">
-									<div style="flex: 0 0 300px;">
-										<img src="images/headshot_circle.png" alt="Alessandro Dell'Orto" style="width: 100%; border-radius: 50%;" />
-									</div>
-									<div style="flex: 1; min-width: 300px;">
-										<h2>About Me</h2>
-										<p>I'm Alessandro, an electronics engineering graduate turned towards computer science, policy, and security.</p>
-										<p>I'm currently pursuing a master's degree in <a href="https://www.tudelft.nl/en/education/programmes/masters/epa/msc-engineering-and-policy-analysis" target="_blank">Engineering and Policy Analysis</a> at TU Delft, where I am studying the fundamentals of Machine Learning, Advanced Modelling and Simulation, but also policy design and strategy. As an intern, I'm also working on domain-specific applications of Large Language Models to International Relations and Security.</p>
-										<p>I am eager to explore how to apply innovations in computer science to the public domain in an effective, transparent, and secure way. In my free time, you will find me singing, playing music, and sharing my love for it.</p>
-									</div>
-								</div>
-							</section>
+    .hero h1 {
+      margin: 0 0 31px;
+      font-size: clamp(32px, 5vw, 58px);
+      font-weight: 700;
+      line-height: .98;
+      letter-spacing: -.035em;
+    }
 
-							<!-- Projects Section -->
-							<section id="projects" style="margin-top: 6em;">
-								<h2 style="text-align: center; margin-bottom: 3em;">Projects</h2>
+    mark {
+      padding: 0 .08em;
+      background: var(--lime);
+      color: inherit;
+    }
 
-								<!-- Project: normattiva-mcp -->
-								<div style="display: flex; align-items: center; gap: 3em; flex-wrap: wrap; margin-bottom: 4em;">
-									<div style="flex: 0.85; min-width: 220px;">
-										<img src="images/normattiva_report.png" alt="normattiva-mcp in Claude Desktop" style="width: 100%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);" />
-									</div>
-									<div style="flex: 1.08; min-width: 300px; margin-top: 1em">
-										<h3>normattiva-mcp</h3>
-										<p>A <a href="https://modelcontextprotocol.io" target="_blank">Model Context Protocol</a> server that lets LLMs explore Italian legislation natively through <a href="https://www.normattiva.it" target="_blank">Normattiva</a>, the official repository of Italian law. It wraps the IPZS OpenData API as MCP tools, resources, and prompts &mdash; search acts, read articles at a given date of vigenza, monitor recent changes &mdash; so model answers stay grounded in primary sources.</p>
-										<p>Built in TypeScript and published on npm &mdash; runs anywhere via <code>npx normattiva-mcp</code>. If you work with Italian law or just want to take it for a spin, I'd love to hear your feedback.</p>
-										<p><a href="https://github.com/adellorto/normattiva-mcp" target="_blank">View on GitHub</a> &middot; <a href="https://www.npmjs.com/package/normattiva-mcp" target="_blank">npm package</a></p>
-									</div>
-								</div>
+    .hero p,
+    .section-copy p {
+      margin: 0 0 18px;
+      font-size: 17px;
+      line-height: 1.36;
+    }
 
-								<!-- Project: ABM Bangladesh -->
-								<div style="display: flex; align-items: center; gap: 3em; flex-wrap: wrap; margin-bottom: 4em; flex-direction: row-reverse;">
-									<div style="flex: 0.85; min-width: 220px;">
-										<img src="images/Project_1.png" alt="Project 1" style="width: 100%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);" />
-									</div>
-									<div style="flex: 1.08; min-width: 300px; margin-top: 1em">
-										<h3>ABM for Bangladesh Road Network</h3>
-										<p>In this group project, I replicated a TU Delft research study for the World Bank, aimed at optimizing Bangladesh's road and bridge network. Starting with raw, unstructured data from the Ministry of Transport, I performed extensive data cleaning and exploration to construct a functional network model of the country's major highways.</p>
-										<p>Using an Object-Oriented approach in Python, I combined Mesa for agent-based modeling, NetworkX for pathfinding and graph computations, and GeoPandas for spatial data structuring. I ran simulations across various disaster scenarios to compute vulnerability and criticality metrics, ultimately determining which infrastructure required urgent investment.</p>
-										<p><a href="https://github.com/adellorto/Advanced_Simulation_Project/tree/main" target="_blank">View on GitHub</a></p>
-									</div>
-								</div>
+    .hero p { max-width: 690px; }
 
-								<!-- Project: IJssel -->
-								<div style="display: flex; align-items: center; gap: 3em; flex-wrap: wrap; margin-bottom: 4em;">
-									<div style="flex: 0.85; min-width: 250px;">
-										<img src="images/Project_2.png" alt="Project 2" style="width: 100%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);" />
-									</div>
-									<div style="flex: 1.08; min-width: 250px;">
-										<h3>IJssel River Flood Risk Management</h3>
-										<p>In this advanced simulation project at TU Delft, our team acted as policy analysts for the dike rings of Deventer and Gorssel to develop a robust flood risk management strategy for the IJssel River Basin. Operating under conditions of "deep uncertainty," we moved beyond traditional predictive modeling to explore thousands of plausible future scenarios involving climate change and socio-economic volatility.</p>
-										<p>Using Python and the EMA Workbench, we engaged in an iterative process of Exploratory Modeling and Analysis (EMA). We utilized Global Sensitivity Analysis (Extra-Trees) to identify key risk drivers and applied Multi-Objective Evolutionary Algorithms (ϵ-NSGA-II) to generate Pareto-optimal policy sets. To stress-test these strategies, we employed the PRIM algorithm for scenario discovery, identifying the specific conditions under which policies might fail.</p>
-										<p><a href="https://github.com/adellorto/MBDM" target="_blank">View on GitHub</a></p>
-									</div>
-								</div>
+    .section {
+      padding: 78px 0 92px;
+      border-top: 1px solid var(--line);
+    }
 
-								<!-- Project: Spatial Data Science -->
-								<div style="display: flex; align-items: center; gap: 3em; flex-wrap: wrap; margin-bottom: 4em; flex-direction: row-reverse;">
-									<div style="flex: 0.85; min-width: 300px;">
-										<img src="images/Project_3.png" alt="Project 3" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);" />
-									</div>
-									<div style="flex: 1.08; min-width: 250px;">
-										<h3>Spatial Data Science: From Wrangling to Advanced Modelling</h3>
-										<p>Developed for the TU Delft Spatial Data Science course, this project applies Python-based workflows to analyze socio-economic patterns in The Hague and India. I first established a robust data engineering pipeline using Pandas and GeoPandas to clean, reshape, and prepare raw urban statistics.</p>
-										<p>Transitioning to complex modelling with the SHRUG dataset, I investigated female labor participation by applying Global and Local Spatial Autocorrelation (Moran's I and LISA) to detect geographic clusters. Finally, I utilized Principal Component Analysis (PCA) for dimensionality reduction followed by K-Means Clustering to group districts based on development indicators.</p>
-										<p><a href="https://github.com/adellorto/SDS_Project_Individual" target="_blank">View on GitHub</a></p>
-									</div>
-								</div>
-							</section>
+    .section-heading {
+      display: grid;
+      grid-template-columns: minmax(180px, 1fr) minmax(0, 2.1fr);
+      gap: 48px;
+      align-items: start;
+      margin-bottom: 46px;
+    }
 
-							<!-- Publications Section -->
-							<section id="publications" style="margin-top: 6em;">
-								<h2 style="text-align: center; margin-bottom: 3em;">Publications</h2>
+    .section-heading h2,
+    .subsection-title {
+      margin: 0;
+      font-size: clamp(25px, 3.2vw, 38px);
+      font-weight: 700;
+      line-height: 1.04;
+      letter-spacing: -.025em;
+    }
 
-								<div style="display: flex; justify-content: center;">
-									<div style="width: 100%; max-width: 900px;">
+    .section-copy { max-width: 680px; }
+    .section-copy p:last-child { margin-bottom: 0; }
 
-										<!-- Publication 1 -->
-										<div style="background: #ffffff; padding: 2em; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); margin-bottom: 2em; border-left: 5px solid #e57e45;">
-											<h3 style="margin-top: 0; color: #333;">GINA Diplomatic: Methodological Notes</h3>
-											<p style="color: #666; margin-bottom: 1em; font-style: italic;">The Hague Centre for Strategic Studies (HCSS) &bull; January 2026</p>
-											<p>Co-authored the methodological documentation for the GINA Diplomatic 2.0 release. This report outlines the data engineering pipeline, NLP classification models, and source verification techniques used to track diplomatic sentiment.</p>
-											<a href="https://hcss.nl/wp-content/uploads/2026/01/GINA-Diplomatic-Methodological-Notes.pdf" target="_blank" style="font-weight: bold; text-decoration: none;">Read Report &rarr;</a>
-										</div>
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 26px;
+      padding-bottom: 92px;
+    }
 
-									</div>
-								</div>
-							</section>
+    .feature-card,
+    .project-card,
+    .media-copy-card {
+      border: .75px solid var(--line);
+      background: var(--background);
+    }
 
-							<!-- Just for fun Section -->
-							<section id="just-for-fun" style="margin-top: 6em;">
-								<h2 style="text-align: center; margin-bottom: 3em;">Just for fun</h2>
-								<div style="display: flex; gap: 2em; flex-wrap: wrap; justify-content: center;">
-									<div style="flex: 1; min-width: 300px; max-width: 400px; background: #f5f5f5; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-										<img src="images/Personal_1.PNG" alt="Playlist Converter" style="width: 100%; display: block;" />
-										<div style="padding: 1.2em; font-size: 0.85em;">
-											<h3 style="font-size: 1.05em;">Playlist converter</h3>
-											<p>I am a proud user of YouTube Music (it's just better!!), but my friends seem not to think the same, so I built this Discord bot.</p>
-											<p>Users simply paste a Spotify link into a Discord channel, and the bot automatically searches for matching tracks, creates a private playlist on YouTube Music, and returns a direct link along with success statistics.</p>
-											<p><a href="https://github.com/adellorto/spotify-ytmusic-converter" target="_blank">View on GitHub</a></p>
-										</div>
-									</div>
-								</div>
-							</section>
+    .feature-card {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+    }
 
-							<!-- Get in touch Section -->
-							<section id="contact" style="margin-top: 6em; text-align: center;">
-								<h2>Get in touch</h2>
-								<ul class="icons" style="justify-content: center;">
-									<li><a href="https://www.linkedin.com/in/alessandro-dellorto" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/adellorto" target="_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="mailto:a.dellorto02@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-							</section>
-						</div>
-					</div>
+    .feature-media {
+      position: relative;
+      min-height: 340px;
+      overflow: hidden;
+      border-bottom: .75px solid var(--line);
+      background: #b9bbb6;
+    }
 
-				<!-- Footer -->
-					<footer id="footer" style="padding: 1em 0;">
-						<div class="inner">
-							<ul class="copyright" style="margin: 0;">
-								<li>&copy; Phantom Theme by HTML5 UP, modified by Alessandro Dell'Orto. Design: <a href="http://html5up.net">HTML5 UP</a></li>
-								<li>Header photo by <a href="https://www.pexels.com/@stywo/" target="_blank">Stephan Seeber</a> on <a href="https://www.pexels.com" target="_blank">Pexels</a></li>
-							</ul>
-						</div>
-					</footer>
+    .feature-copy {
+      min-height: 260px;
+      padding: 28px 29px 32px;
+    }
 
-			</div>
+    .feature-copy h2,
+    .project-copy h3 {
+      margin: 0 0 17px;
+      font-size: 23px;
+      font-weight: 700;
+      line-height: 1.08;
+      text-wrap: balance;
+    }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    .feature-copy h2 { min-height: 75px; }
+    .project-copy h3 { min-height: 50px; }
 
-	</body>
+    .feature-copy p,
+    .project-copy p {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.34;
+      text-wrap: pretty;
+    }
 
+    .carousel .slide {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      pointer-events: none;
+      filter: grayscale(1);
+      transition: opacity .22s ease, filter .22s ease;
+    }
+
+    .carousel .slide.active { opacity: 1; pointer-events: auto; }
+    .carousel:hover .slide.active,
+    .carousel:focus-within .slide.active { filter: grayscale(0); }
+
+    .feature-media .interface-slide {
+      object-fit: contain;
+      background: #f8f8f5;
+    }
+
+    .carousel-button {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      border: .5px solid #000;
+      border-radius: 50%;
+      background: rgba(230, 231, 226, .9);
+      font-size: 17px;
+      line-height: 1;
+      cursor: pointer;
+      transform: translateY(-50%);
+    }
+
+    .carousel-button:hover { background: var(--lime); }
+    .carousel-button.prev { left: 13px; }
+    .carousel-button.next { right: 13px; }
+
+    .media-copy-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+      min-height: 430px;
+    }
+
+    .media-copy-card .feature-media {
+      min-height: 430px;
+      border-right: .75px solid var(--line);
+      border-bottom: 0;
+    }
+
+    .media-copy-card .section-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 44px;
+    }
+
+    .media-copy-card .section-copy h2 {
+      margin: 0 0 28px;
+      font-size: clamp(25px, 3.2vw, 38px);
+      line-height: 1.04;
+    }
+
+    .academic-intro { margin-bottom: 64px; }
+    .text-only-section .section-heading { margin-bottom: 0; }
+
+    .subsection-title {
+      max-width: 520px;
+      margin: 0 0 34px;
+      font-size: 24px;
+      letter-spacing: -.015em;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 26px;
+    }
+
+    .project-card {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      transition: transform .18s ease;
+    }
+
+    .project-card:hover {
+      background: var(--background);
+      transform: translateY(-3px);
+    }
+
+    .project-media {
+      height: auto;
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      border-bottom: .75px solid var(--line);
+      background: #b9bbb6;
+    }
+
+    .project-media img {
+      filter: grayscale(1);
+      transition: filter .22s ease, transform .4s ease;
+    }
+
+    .project-card:hover .project-media img,
+    .project-card:focus-visible .project-media img {
+      filter: grayscale(0);
+      transform: scale(1.015);
+    }
+
+    .project-card:nth-child(2) .project-media img {
+      object-fit: contain;
+      background: #f8f8f5;
+    }
+
+    .project-media.abstract {
+      position: relative;
+      background:
+        linear-gradient(90deg, transparent 49.7%, var(--line) 49.8%, var(--line) 50.2%, transparent 50.3%),
+        linear-gradient(transparent 49.7%, var(--line) 49.8%, var(--line) 50.2%, transparent 50.3%);
+    }
+
+    .project-media.abstract::before,
+    .project-media.abstract::after {
+      content: "";
+      position: absolute;
+      border: .75px solid var(--line);
+    }
+
+    .project-media.abstract::before {
+      width: 32%;
+      height: 58%;
+      left: 14%;
+      top: 20%;
+      background: var(--ink);
+    }
+
+    .project-media.abstract::after {
+      width: 31%;
+      height: 31%;
+      right: 14%;
+      top: 34%;
+      border-radius: 50%;
+      background: var(--lime);
+    }
+
+    .project-copy {
+      flex: 1;
+      min-height: 245px;
+      padding: 27px 28px 31px;
+    }
+
+    .open-source-card .feature-media img { object-position: center top; }
+
+    .interface-card .feature-media .slide {
+      object-fit: contain;
+      background: #f8f8f5;
+    }
+
+    .contact-section {
+      min-height: 305px;
+      padding-bottom: 112px;
+    }
+
+    .contact-section .section-heading {
+      align-items: baseline;
+      margin-bottom: 0;
+    }
+    .contact-section .section-copy p { font-size: 18px; }
+
+    @media (max-width: 780px) {
+      main { width: min(var(--content), calc(100% - 40px)); }
+      .hero { min-height: 420px; padding: 60px 0 70px; }
+      .feature-grid,
+      .project-grid { grid-template-columns: 1fr; }
+      .section-heading { grid-template-columns: 1fr; gap: 25px; }
+      .media-copy-card { grid-template-columns: 1fr; }
+      .media-copy-card .feature-media {
+        min-height: 340px;
+        border-right: 0;
+        border-bottom: .75px solid var(--line);
+      }
+      .media-copy-card .section-copy { padding: 34px 30px 39px; }
+      .feature-copy,
+      .project-copy { min-height: auto; }
+      .feature-copy h2,
+      .project-copy h3 { min-height: 0; }
+    }
+
+    @media (max-width: 500px) {
+      .site-header { padding-left: 17px; }
+      main { width: calc(100% - 34px); }
+      .hero h1 { font-size: 39px; }
+      .hero p,
+      .section-copy p { font-size: 16px; }
+      .section { padding: 61px 0 72px; }
+      .feature-grid { gap: 21px; padding-bottom: 72px; }
+      .feature-media { min-height: 260px; }
+      .project-media { height: auto; }
+      .media-copy-card .feature-media { min-height: 265px; }
+      .feature-copy { min-height: 0; padding: 25px 24px 29px; }
+      .project-copy { padding: 24px 23px 28px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .carousel .slide,
+      .project-card,
+      .project-media img { transition: none; }
+    }
+
+    :root {
+      --background: #e7e8e3;
+      --ink: #30322f;
+      --lime: #cdfa78;
+      --line: rgba(32, 34, 31, .54);
+      --line-soft: rgba(32, 34, 31, .19);
+      --paper: #f4f5f0;
+      --content: 1160px;
+      --copy: 760px;
+      --header-height: 58px;
+    }
+
+    html { scroll-padding-top: calc(var(--header-height) + 28px); }
+
+    body {
+      min-width: 0;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    img { object-position: center; }
+
+    .site-header {
+      height: var(--header-height);
+      align-items: center;
+      padding: 0 max(24px, calc((100vw - var(--content)) / 2));
+      border-bottom-color: var(--line-soft);
+      background: rgba(231, 232, 227, .94);
+      backdrop-filter: blur(10px);
+    }
+
+    .site-header::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 100%;
+      height: 2px;
+      background: var(--lime);
+      transform: scaleX(var(--scroll-progress, 0));
+      transform-origin: left center;
+      pointer-events: none;
+    }
+
+    .wordmark {
+      font-size: 14px;
+      letter-spacing: .085em;
+    }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+      gap: clamp(14px, 2vw, 28px);
+      margin-left: auto;
+    }
+
+    .site-nav a {
+      font-size: 13px;
+      line-height: 1;
+      letter-spacing: .025em;
+      text-decoration: none;
+    }
+
+    .site-nav a:hover,
+    .site-nav a:focus-visible {
+      background: var(--lime);
+    }
+
+    main { width: min(var(--content), calc(100% - 64px)); }
+
+    .hero {
+      width: 100%;
+      min-height: max(610px, calc(88svh - var(--header-height)));
+      display: grid;
+      grid-template-columns: minmax(260px, .82fr) minmax(420px, 1.18fr);
+      grid-template-rows: repeat(3, auto);
+      align-content: center;
+      column-gap: clamp(64px, 8vw, 126px);
+      row-gap: 20px;
+      padding: 92px 0 108px;
+    }
+
+    .hero h1 {
+      grid-column: 1;
+      grid-row: 1 / span 3;
+      align-self: start;
+      margin: -7px 0 0;
+      max-width: 410px;
+      font-size: clamp(52px, 5.2vw, 76px);
+      line-height: .94;
+      letter-spacing: -.048em;
+      text-wrap: balance;
+    }
+
+    .hero p {
+      grid-column: 2;
+      max-width: 650px;
+      margin: 0;
+      font-size: clamp(17px, 1.5vw, 19px);
+      line-height: 1.52;
+      text-wrap: pretty;
+    }
+
+    mark {
+      padding: 0 .1em .03em;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+    }
+
+    .feature-grid {
+      position: relative;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: clamp(24px, 3.2vw, 42px);
+      align-items: start;
+      padding: 90px 0 116px;
+      border-top: .75px solid var(--line);
+    }
+
+    .feature-grid::before,
+    .section::before {
+      content: "";
+      position: absolute;
+      top: -1px;
+      left: 0;
+      width: 58px;
+      height: 3px;
+      background: var(--lime);
+    }
+
+    .feature-card,
+    .project-card,
+    .media-copy-card {
+      border-color: var(--line);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, .34);
+    }
+
+    .feature-card:nth-child(2) { margin-top: 88px; }
+
+    .feature-media {
+      min-height: 0;
+      aspect-ratio: 3 / 2;
+      background: var(--paper);
+    }
+
+    .feature-copy {
+      min-height: 252px;
+      padding: 32px 34px 36px;
+    }
+
+    .feature-copy h2,
+    .project-copy h3 {
+      margin-bottom: 19px;
+      font-size: 25px;
+      line-height: 1.08;
+      letter-spacing: -.018em;
+    }
+
+    .feature-copy h2 { min-height: auto; }
+
+    .feature-copy p,
+    .project-copy p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .carousel .slide {
+      filter: grayscale(.94) contrast(.98);
+      transition: opacity .28s ease, filter .28s ease, transform .7s cubic-bezier(.2,.7,.2,1);
+    }
+
+    .carousel:hover .slide.active,
+    .carousel:focus-within .slide.active { filter: grayscale(0); }
+
+    .feature-card:hover .slide.active { transform: scale(1.012); }
+
+    .feature-card:first-child .feature-media .slide:nth-child(n+3),
+    .feature-media .interface-slide {
+      object-fit: contain;
+      background: var(--paper);
+    }
+
+    .feature-card:first-child .feature-media .slide:nth-child(3) { padding: 20px; }
+    .feature-card:nth-child(2) .feature-media .slide:nth-child(2) { object-position: center 58%; }
+    .feature-card:nth-child(2) .feature-media .slide:nth-child(3) { object-position: center 42%; }
+
+    .carousel-button {
+      width: 38px;
+      height: 38px;
+      border-color: var(--line);
+      background: rgba(231, 232, 227, .92);
+      box-shadow: 0 1px 8px rgba(0, 0, 0, .06);
+      transition: background .18s ease, transform .18s ease;
+    }
+
+    .carousel-button:hover { transform: translateY(-50%) scale(1.04); }
+    .carousel-button.prev { left: 16px; }
+    .carousel-button.next { right: 16px; }
+
+    .section {
+      position: relative;
+      padding: 104px 0 122px;
+      border-top-color: var(--line);
+    }
+
+    .section-heading {
+      grid-template-columns: minmax(220px, .75fr) minmax(0, 1.5fr);
+      gap: clamp(56px, 8vw, 118px);
+      margin-bottom: 70px;
+    }
+
+    .section-heading > h2 {
+      position: sticky;
+      top: calc(var(--header-height) + 40px);
+      font-size: clamp(32px, 3.2vw, 44px);
+      line-height: .98;
+      letter-spacing: -.038em;
+      text-wrap: balance;
+    }
+
+    .section-copy { max-width: 700px; }
+
+    .section-copy p {
+      margin-bottom: 23px;
+      font-size: 18px;
+      line-height: 1.56;
+      text-wrap: pretty;
+    }
+
+    .text-only-section .section-heading { margin-bottom: 0; }
+    .academic-intro { margin-bottom: 84px; }
+
+    .subsection-title {
+      max-width: 700px;
+      margin: 0 0 42px;
+      font-size: 27px;
+      line-height: 1.12;
+      letter-spacing: -.022em;
+    }
+
+    .project-grid {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+
+    .project-card {
+      display: grid;
+      grid-template-columns: minmax(330px, .9fr) minmax(0, 1.1fr);
+      min-height: 370px;
+      transform: none;
+    }
+
+    .project-card:hover { transform: translateY(-2px); }
+
+    .project-media {
+      height: auto;
+      min-height: 370px;
+      aspect-ratio: auto;
+      border-right: .75px solid var(--line);
+      border-bottom: 0;
+      background: var(--paper);
+    }
+
+    .project-carousel { position: relative; }
+
+    .project-copy h3 a {
+      color: inherit;
+      text-decoration-color: var(--line-soft);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 5px;
+    }
+
+    .project-media img,
+    .project-card:nth-child(2) .project-media img {
+      object-fit: contain;
+      padding: clamp(18px, 3vw, 34px);
+      background: var(--paper);
+    }
+
+    .project-card:first-child .project-media img { padding: 18px 44px; }
+
+    .project-card:nth-child(even) .project-media {
+      grid-column: 2;
+      grid-row: 1;
+      border-right: 0;
+      border-left: .75px solid var(--line);
+    }
+
+    .project-card:nth-child(even) .project-copy {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .project-media.abstract { padding: 0; }
+
+    .project-copy {
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: clamp(36px, 5vw, 64px);
+    }
+
+    .project-copy h3 {
+      max-width: 490px;
+      min-height: 0;
+      font-size: clamp(25px, 2.6vw, 34px);
+    }
+
+    .media-copy-card {
+      grid-template-columns: minmax(0, 1.18fr) minmax(340px, .82fr);
+      min-height: 500px;
+    }
+
+    .media-copy-card .feature-media {
+      min-height: 500px;
+      aspect-ratio: auto;
+      background: #fff;
+    }
+
+    .interface-card .feature-media .slide,
+    .open-source-card .feature-media img {
+      object-fit: contain;
+      object-position: center;
+      background: #fff;
+    }
+
+    .media-copy-card .section-copy { padding: clamp(38px, 5vw, 62px); }
+
+    .media-copy-card .section-copy h2 {
+      margin-bottom: 32px;
+      font-size: clamp(34px, 3.5vw, 46px);
+      line-height: .98;
+      letter-spacing: -.035em;
+    }
+
+    .media-copy-card .section-copy h2 a {
+      text-decoration-color: var(--line-soft);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 6px;
+    }
+
+    .contact-section {
+      min-height: 360px;
+      padding-bottom: 118px;
+    }
+
+    .contact-section .section-copy p { font-size: 18px; }
+
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .contact-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 10px 17px;
+      border: .75px solid var(--line);
+      text-decoration: none;
+      transition: background .18s ease, transform .18s ease;
+    }
+
+    .contact-action:hover,
+    .contact-action:focus-visible {
+      background: var(--lime);
+      transform: translateY(-2px);
+    }
+
+    .contact-action.primary {
+      background: var(--ink);
+      color: var(--background);
+    }
+
+    .contact-action.primary:hover,
+    .contact-action.primary:focus-visible {
+      background: var(--lime);
+      color: var(--ink);
+    }
+
+    .has-js .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity .7s ease, transform .8s cubic-bezier(.2,.7,.2,1);
+    }
+
+    .has-js .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 920px) {
+      .hero {
+        min-height: 600px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 28px;
+        padding: 82px 0 94px;
+      }
+
+      .hero h1,
+      .hero p { grid-column: 1; grid-row: auto; }
+      .hero h1 { max-width: 680px; margin-bottom: 17px; }
+      .hero p { max-width: 700px; }
+
+      .feature-card:nth-child(2) { margin-top: 58px; }
+      .section-heading { gap: 54px; }
+      .project-card { grid-template-columns: minmax(300px, .86fr) minmax(0, 1.14fr); }
+      .media-copy-card { grid-template-columns: minmax(0, 1.05fr) minmax(310px, .95fr); }
+    }
+
+    @media (max-width: 780px) {
+      main { width: min(var(--content), calc(100% - 40px)); }
+      .feature-grid { grid-template-columns: 1fr; padding: 72px 0 92px; }
+      .feature-card:nth-child(2) { margin-top: 0; }
+      .feature-media { aspect-ratio: 3 / 2; }
+      .section { padding: 82px 0 96px; }
+      .section-heading { grid-template-columns: 1fr; gap: 30px; }
+      .section-heading > h2 { position: static; }
+      .academic-intro { margin-bottom: 66px; }
+
+      .project-card,
+      .media-copy-card { grid-template-columns: 1fr; }
+
+      .project-card:nth-child(even) .project-media,
+      .project-card:nth-child(even) .project-copy {
+        grid-column: 1;
+        grid-row: auto;
+      }
+
+      .project-card:nth-child(even) .project-media {
+        border-left: 0;
+        border-bottom: .75px solid var(--line);
+      }
+
+      .project-media,
+      .media-copy-card .feature-media {
+        min-height: 0;
+        aspect-ratio: 4 / 3;
+        border-right: 0;
+        border-bottom: .75px solid var(--line);
+      }
+
+      .project-copy { padding: 36px 32px 42px; }
+      .media-copy-card .section-copy { padding: 40px 34px 46px; }
+      .contact-section { min-height: 320px; }
+    }
+
+    @media (max-width: 500px) {
+      .site-header { padding: 0 14px; }
+      .wordmark { font-size: 12px; }
+      .site-nav { gap: 9px; }
+      .site-nav a { font-size: 11.5px; letter-spacing: 0; }
+      main { width: calc(100% - 34px); }
+      .hero { min-height: auto; padding: 66px 0 74px; gap: 20px; }
+      .hero h1 { margin-bottom: 16px; font-size: clamp(43px, 13vw, 58px); }
+      .hero p,
+      .section-copy p { font-size: 16.5px; line-height: 1.52; }
+      .feature-grid { padding: 62px 0 76px; }
+      .feature-copy { min-height: 0; padding: 27px 25px 31px; }
+      .feature-copy h2 { font-size: 23px; }
+      .feature-copy p,
+      .project-copy p { font-size: 15.5px; line-height: 1.48; }
+      .section { padding: 68px 0 78px; }
+      .section-heading > h2 { font-size: 34px; }
+      .subsection-title { margin-bottom: 30px; font-size: 24px; }
+      .project-grid { gap: 22px; }
+      .project-media,
+      .media-copy-card .feature-media { aspect-ratio: 1 / 1; }
+      .project-card:first-child .project-media img { padding: 15px 44px; }
+      .project-copy { padding: 29px 25px 34px; }
+      .project-copy h3 { font-size: 25px; }
+      .media-copy-card .section-copy { padding: 32px 26px 38px; }
+      .media-copy-card .section-copy h2 { font-size: 34px; }
+      .carousel-button { width: 36px; height: 36px; }
+      .contact-section { padding-bottom: 82px; }
+      .contact-actions { gap: 9px; margin-top: 25px; }
+      .contact-action { flex: 1 1 130px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .has-js .reveal,
+      .has-js .reveal.is-visible {
+        opacity: 1;
+        transform: none;
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body id="top">
+  <header class="site-header">
+    <a class="wordmark" href="#top">ADELLORTO</a>
+    <nav class="site-nav" aria-label="Profile links">
+      <a href="https://github.com/adellorto" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=WqRaAysAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
+      <a href="https://www.linkedin.com/in/alessandro-dellorto" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:a.dellorto.work@outlook.com">Email</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Hi! I am <mark>Alessandro</mark></h1>
+      <p>I research and write about things at the intersection of Computer Science, AI and Society.</p>
+      <p>Born and raised in Northern Italy, with some more southern roots, I moved to the Netherlands to study and work. In 2026 I saw my first academic paper presented in San Diego. The same week I received an award for a journalism project.</p>
+      <p>For the remainder of the day, I am a passionate musician and a hiker (the latter not being very easy to practise in the very flat Netherlands).</p>
+    </section>
+
+    <section class="feature-grid" aria-label="Featured work">
+      <article class="feature-card">
+        <div class="feature-media carousel" data-carousel>
+          <img class="slide active" src="Images/GENOME/bafkreia6itgpk7qveh53wqhyndksl6a5sqrrkwpayt2blsahhqdubpk2jy.webp" alt="GENOME presentation at ACL 2026">
+          <img class="slide" src="Images/GENOME/bafkreia7p7juxqsrwrmsdd7yukbuzifsuu7tqi6h3sd6xolbix4qsovgka.webp" alt="GENOME presentation in San Diego" loading="lazy">
+          <img class="slide" src="Images/GENOME/1784107831402.jpg" alt="GENOME Honourable Mention certificate" loading="lazy">
+          <img class="slide interface-slide" src="Images/GENOME/Screenshot%202026-09-02%20165118.png" alt="GENOME dataset interface" loading="lazy">
+          <img class="slide interface-slide" src="Images/GENOME/Screenshot%202026-09-02%20165201.png" alt="GENOME data dashboard" loading="lazy">
+          <button class="carousel-button prev" type="button" aria-label="Previous image">←</button>
+          <button class="carousel-button next" type="button" aria-label="Next image">→</button>
+        </div>
+        <div class="feature-copy">
+          <h2>ACL 2026</h2>
+          <p><em>GENOME: A new Geopolitical Event Methodology and Dataset using Large Language Models</em> is a study on the use of LLMs to extract cooperative and conflictual events from newswire sources and part of my internship project at <em>The Hague Centre for Strategic Studies (HCSS)</em>. Presented at the Association for Computational Linguistics (ACL) annual conference, it received an Honourable Mention at its workshop.</p>
+        </div>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-media carousel" data-carousel>
+          <img class="slide active" src="Images/MYLLENNIUM/40lorenzo.montanelli20-20arsenale20myllenium20awards202026-8_vsco-1.webp" alt="MyLLENNIUM Award event">
+          <img class="slide" src="Images/MYLLENNIUM/1128db3f-34c6-48f6-b5d4-2669d78fb94d-1.webp" alt="MyLLENNIUM Award ceremony" loading="lazy">
+          <img class="slide" src="Images/MYLLENNIUM/myllennium2026-218_vsco-1.webp" alt="MyLLENNIUM Award presentation" loading="lazy">
+          <button class="carousel-button prev" type="button" aria-label="Previous image">←</button>
+          <button class="carousel-button next" type="button" aria-label="Next image">→</button>
+        </div>
+        <div class="feature-copy">
+          <h2>MyLLENNIUM Award</h2>
+          <p>Together with the journalist Gloria Pessina, I wrote an inquiry on the use of AI in the Italian legal sector. We received a prize for the best reportage. The article will be published on Linkiesta in October.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section text-only-section">
+      <div class="section-heading">
+        <h2>Developer</h2>
+        <div class="section-copy">
+          <p>On top of the research paper, I curated the API, the automations and the documentation related to the <a href="https://genome.app.hcss.nl/" target="_blank" rel="noopener noreferrer">GENOME dataset</a>, which HCSS aims to distribute to the public soon.</p>
+          <p>During my internship, I also curated the refactoring of <a href="https://hcss.nl/news/the-hcss-datalab-presents-gina-diplomatic-2-0/" target="_blank" rel="noopener noreferrer">around 10 different dashboards</a>: standardising and securing the backend, automating data updates from external APIs, and redesigning the UI. Most of this took a lot of time and sweat, and ironically happened a couple of months before the moment when a 20-minute session with Claude Opus could do the same job.</p>
+          <p>I took it philosophically, as it makes me appreciate the transition from software developer to AI engineer even more.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading academic-intro">
+        <h2>Academic Background</h2>
+        <div class="section-copy">
+          <p>Chronically indecisive between STEM and Public Policy, I have a background that spans from microelectronics, machine learning and Bayesian statistics to political decision-making and behavioural policy models.</p>
+          <p>I hold a BSc in Electronics Engineering from Politecnico di Milano, which gave me a highly theoretical foundation. I am not a huge fan of circuits, however.</p>
+          <p>I am now completing my MSc in Engineering and Policy Analysis at Delft University of Technology. There is still a lot of computer and data science, but it is applied to modelling socio-technical systems, together with some tracks on ethics, behavioural theories, economics and strategy.</p>
+        </div>
+      </div>
+
+      <h2 class="subsection-title">Some projects from my uni times</h2>
+      <div class="project-grid">
+        <a class="project-card" href="https://github.com/adellorto/Advanced_Simulation_Project/tree/main" target="_blank" rel="noopener noreferrer">
+          <div class="project-media">
+            <img src="Images/ACADEMIC/Project_1.png" alt="Bangladesh road network model" loading="lazy">
+          </div>
+          <div class="project-copy">
+            <h3>Agent-Based Modelling for Bangladesh Road Network</h3>
+            <p>In this group project, I replicated a TU Delft research study for the World Bank, aimed at optimizing Bangladesh's road and bridge network. Starting with raw, unstructured data from the Ministry of Transport, I performed extensive data cleaning and exploration to construct a functional network model of the country's major highways.</p>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.com/adellorto/MBDM" target="_blank" rel="noopener noreferrer">
+          <div class="project-media">
+            <img src="Images/ACADEMIC/Project_2.png" alt="IJssel River flood risk model" loading="lazy">
+          </div>
+          <div class="project-copy">
+            <h3>IJssel River Flood Risk Management</h3>
+            <p>In this advanced simulation project at TU Delft, our team acted as policy analysts for the dike rings of Deventer and Gorssel to develop a robust flood risk management strategy for the IJssel River Basin. Operating under conditions of "deep uncertainty," we moved beyond traditional predictive modeling to explore thousands of plausible future scenarios involving climate change and socio-economic volatility.</p>
+          </div>
+        </a>
+
+        <article class="project-card">
+          <div class="project-media carousel project-carousel" data-carousel>
+            <img class="slide active" src="Images/MiniGPT/Screenshot%202026-09-03%20115158.png" alt="Diagram of the GPT language model architecture" loading="lazy">
+            <img class="slide" src="Images/MiniGPT/Screenshot%202026-09-03%20115406.png" alt="Training and validation loss by tokenizer" loading="lazy">
+            <img class="slide" src="Images/MiniGPT/Screenshot%202026-09-03%20115258.png" alt="MiniGPT model evaluation results" loading="lazy">
+            <img class="slide" src="Images/MiniGPT/Screenshot%202026-09-03%20115440.png" alt="Monte Carlo dropout uncertainty metrics" loading="lazy">
+            <button class="carousel-button prev" type="button" aria-label="Previous MiniGPT image">←</button>
+            <button class="carousel-button next" type="button" aria-label="Next MiniGPT image">→</button>
+          </div>
+          <div class="project-copy">
+            <h3><a href="https://github.com/adellorto/MiniGPT" target="_blank" rel="noopener noreferrer">Mini (Bayesian) GPT</a></h3>
+            <p>This is a comparative study of tokenization strategies and language model architectures for text generation, built on Andrej Karpathy's miniGPT. We implement three models of increasing complexity (a Neural Bigram Model, a GPT Language Model with multi-head self-attention, and a Monte Carlo Dropout GPT for uncertainty quantification) and evaluate them across three tokenization methods and two datasets.</p>
+          </div>
+        </article>
+
+        <a class="project-card" href="https://github.com/adellorto/SDS_Project_Individual" target="_blank" rel="noopener noreferrer">
+          <div class="project-media">
+            <img src="Images/ACADEMIC/Project_3.png" alt="Spatial data analysis maps and charts" loading="lazy">
+          </div>
+          <div class="project-copy">
+            <h3>Spatial Data Analysis on India and The Hague</h3>
+            <p>This project applies data cleaning, Global and Local Spatial Autocorrelation (Moran's I and LISA), Principal Component Analysis, and K-Means clustering to different datasets regarding socio-economic patterns in different geographical scopes.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="media-copy-card interface-card open-source-card">
+        <div class="feature-media carousel" data-carousel>
+          <img class="slide active" src="Images/Normattiva%20MCP/prompt.jpg" alt="Sonnet prompt using the Normattiva MCP server" loading="lazy">
+          <img class="slide" src="Images/Normattiva%20MCP/sonnet%20report.png" alt="Verified report produced with the Normattiva MCP server" loading="lazy">
+          <button class="carousel-button prev" type="button" aria-label="Previous image">←</button>
+          <button class="carousel-button next" type="button" aria-label="Next image">→</button>
+        </div>
+        <div class="section-copy">
+          <h2><a href="https://github.com/adellorto/normattiva-mcp" target="_blank" rel="noopener noreferrer">Open Source</a></h2>
+          <p>I recently built an MCP server that lets LLMs explore Italian legislation natively through Normattiva, the official repository of Italian law. It wraps the IPZS OpenData API as MCP tools, resources, and prompts. In the pictures, a small Sonnet prompt returns a verified overview of all the Italian law acts published in the last month.</p>
+          <p>The MCP has recently been added to the <a href="https://github.com/bsab/italia-mcp-servers" target="_blank" rel="noopener noreferrer">Italia MCP Servers</a> list.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="section-heading">
+        <h2>CV and Contacts</h2>
+        <div class="section-copy">
+          <p>If you are interested in any of my works, want to collaborate or simply have a coffee chat, please contact me through any of these channels: <a href="mailto:a.dellorto.work@outlook.com">email</a>, <a href="https://www.linkedin.com/in/alessandro-dellorto" target="_blank" rel="noopener noreferrer">LinkedIn</a> or <a href="https://github.com/adellorto" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+          <p>Here you can also find my <a href="CV_Alessandro_Dell_Orto.pdf" target="_blank" rel="noopener noreferrer">CV</a>.</p>
+          <div class="contact-actions" aria-label="Contact links">
+            <a class="contact-action primary" href="mailto:a.dellorto.work@outlook.com">Email me&nbsp;↗</a>
+            <a class="contact-action" href="CV_Alessandro_Dell_Orto.pdf" target="_blank" rel="noopener noreferrer">View my CV&nbsp;↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.documentElement.classList.add('has-js');
+
+    document.querySelectorAll('[data-carousel]').forEach(carousel => {
+      const slides = [...carousel.querySelectorAll('.slide')];
+      const previous = carousel.querySelector('.prev');
+      const next = carousel.querySelector('.next');
+      let current = 0;
+
+      function show(index) {
+        current = (index + slides.length) % slides.length;
+        slides.forEach((slide, position) => {
+          slide.classList.toggle('active', position === current);
+          slide.setAttribute('aria-hidden', position === current ? 'false' : 'true');
+        });
+      }
+
+      previous.addEventListener('click', () => show(current - 1));
+      next.addEventListener('click', () => show(current + 1));
+      show(0);
+    });
+
+    const revealTargets = document.querySelectorAll(
+      '.feature-card, .section-heading, .subsection-title, .project-card, .media-copy-card'
+    );
+
+    revealTargets.forEach(target => target.classList.add('reveal'));
+
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+
+    revealTargets.forEach(target => revealObserver.observe(target));
+
+    function updateScrollProgress() {
+      const distance = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = distance > 0 ? window.scrollY / distance : 0;
+      document.documentElement.style.setProperty('--scroll-progress', progress);
+    }
+
+    updateScrollProgress();
+    window.addEventListener('scroll', updateScrollProgress, { passive: true });
+  </script>
+</body>
 </html>

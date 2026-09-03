@@ -1,10 +1,10 @@
 # Portfolio
 
-Personal portfolio website showcasing my academic and personal projects.
+Personal portfolio website showcasing my research, development work, academic projects, and contact information.
 
-## About
+The current site is self-contained in `index.html`, with media stored under `Images/` and a downloadable CV at `CV_Alessandro_Dell_Orto.pdf`.
 
-Data and policy analyst portfolio built with HTML, CSS, and JavaScript. Features project showcases, publications, and contact information.
+The previous version is preserved under `old-version/` and remains available at [portfolio.adellorto.com/old-version/](https://portfolio.adellorto.com/old-version/).
 
 ## Deployment
 
@@ -18,7 +18,6 @@ To deploy updates:
 
 Open `index.html` in a web browser to view locally.
 
-## Credits
+## Previous-version credits
 
-Based on the Phantom theme by [HTML5 UP](https://html5up.net)
-Licensed under [CCA 3.0](https://html5up.net/license)
+The archived version is based on the Phantom theme by [HTML5 UP](https://html5up.net) and licensed under [CCA 3.0](https://html5up.net/license).
