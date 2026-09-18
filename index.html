@@ -430,8 +430,24 @@
     }
 
     .wordmark {
+      display: inline-grid;
+      width: 34px;
+      height: 28px;
+      place-items: center;
+      border: 1px solid var(--ink);
+      background: var(--paper);
+      box-shadow: 3px 3px 0 var(--lime);
       font-size: 14px;
-      letter-spacing: .085em;
+      line-height: 1;
+      letter-spacing: -.06em;
+      transition: background-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
+    }
+
+    .wordmark:hover,
+    .wordmark:focus-visible {
+      background: var(--lime);
+      box-shadow: 1px 1px 0 var(--lime);
+      transform: translate(2px, 2px);
     }
 
     .site-nav {
@@ -838,7 +854,7 @@
 
     @media (max-width: 500px) {
       .site-header { padding: 0 14px; }
-      .wordmark { font-size: 12px; }
+      .wordmark { width: 32px; height: 26px; font-size: 13px; }
       .site-nav { gap: 9px; }
       .site-nav a { font-size: 11.5px; letter-spacing: 0; }
       main { width: calc(100% - 34px); }
@@ -880,7 +896,7 @@
 </head>
 <body id="top">
   <header class="site-header">
-    <a class="wordmark" href="#top">ADELLORTO</a>
+    <a class="wordmark" href="#top" aria-label="Alessandro Dell'Orto, back to top">AD</a>
     <nav class="site-nav" aria-label="Profile links">
       <a href="CV_Alessandro_Dell_Orto.pdf" target="_blank" rel="noopener noreferrer">CV</a>
       <a href="https://github.com/adellorto" target="_blank" rel="noopener noreferrer">GitHub</a>
