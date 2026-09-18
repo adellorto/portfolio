@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AD monogram">
+  <rect width="64" height="64" rx="8" fill="#e7e8e3"/>
+  <rect x="13" y="15" width="40" height="40" fill="#cdfa78"/>
+  <rect x="9" y="11" width="40" height="40" fill="#f4f5f0" stroke="#30322f" stroke-width="2"/>
+  <text x="29" y="38" fill="#30322f" font-family="Kameron, Georgia, serif" font-size="20" font-weight="700" letter-spacing="-1.2" text-anchor="middle">AD</text>
+</svg>
